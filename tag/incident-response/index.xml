@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Incident Response | Emmanuele Zambon @ TU/e</title><link>https://zambo99.github.io/tag/incident-response/</link><atom:link href="https://zambo99.github.io/tag/incident-response/index.xml" rel="self" type="application/rss+xml"/><description>Incident Response</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Mar 2014 00:00:00 +0000</lastBuildDate><image><url>https://zambo99.github.io/media/icon_hu01dcd17ab3e278ee5be678daabaf6d01_429407_512x512_fill_lanczos_center_3.png</url><title>Incident Response</title><link>https://zambo99.github.io/tag/incident-response/</link></image><item><title>PREEMPTIVE</title><link>https://zambo99.github.io/project/preemptive/</link><pubDate>Sat, 01 Mar 2014 00:00:00 +0000</pubDate><guid>https://zambo99.github.io/project/preemptive/</guid><description>&lt;p>&lt;em>Funded by: EU FP7-SECURITY. Grant agreement ID: 607093&lt;/em>.&lt;/p>
+&lt;p>&lt;em>March 2014 &amp;ndash; February 2017&lt;/em>.&lt;/p>
+&lt;p>&lt;em>Total funding: 3.83M Euro&lt;/em>.&lt;/p>
+&lt;p>In recent years, we have witnessed an increase in the number and impact of cyber attacks. A successful attack might affect, or even endanger, daily human activities. Multiple countermeasures have been put in place to prevent Advanced Persistent Threat (APT) attacks, but they failed, allowing the latest generation of APT. The goal of PREEMPTIVE is to provide an innovative solution for enhancing existing methods and conceiving tools to prevent against cyber attacks, that target utility networks.&lt;/p>
+&lt;p>PREEMPTIVE addresses the prevention of cyber attacks against hardware and software systems such as DCS, SCADA, PLC, networked electronic sensing, and monitoring and diagnostic systems used by the utilities networks. Moreover, the research aims to implement detection tools based on a dual approach comprising low direct detection and process misbehavior detection
+PREEMPTIVE proposes to:&lt;/p>
+&lt;ul>
+&lt;li>Enhance existing methodological security and prevention frameworks with the aim of harmonizing Risk and Vulnerability Assessment methods, standard policies, procedures and applicable regulations or recommendations to prevent cyber attacks.&lt;/li>
+&lt;li>Design and develop prevention and detection tools complaint to the dual approach that takes into account both the industrial process misbehavior analysis (physical domain) and the communication &amp;amp; software anomalies (cyber domain):
+&lt;ul>
+&lt;li>Industrial process misbehavior detection tools.&lt;/li>
+&lt;li>Communication &amp;amp; software related threats prevention and detection tools.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Define a taxonomy for classifying the utilities networks taking into account:
+&lt;ul>
+&lt;li>The utility network type and communication technology used&lt;/li>
+&lt;li>The utility network exposure to Cyber threats&lt;/li>
+&lt;li>The impact to the citizens of services disruption caused by a cyber attack through the utility network.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Define guidelines for improving Critical Infrastructure (CI) surveillance.&lt;/li>
+&lt;li>Validate the PREEMPTIVE framework and innovative technologies in real scenarios with the support of the utility companies&lt;/li>
+&lt;/ul></description></item></channel></rss>
