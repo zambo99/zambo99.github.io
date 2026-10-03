@@ -102,7 +102,7 @@ SITE</a>
 <p><em>Funded by: NWA-NWO</em>.</p><p><em>2019 &ndash; 2027</em>.</p><p><em>Total funding: 10M Euro</em>.</p><p>The rhythms and operations of modern society are regulated by IoT devices. On the street, at the office, in the car or in the train, at the airport or at home. IoT systems <strong>monitor</strong> our buildings, <strong>regulate</strong> traffic, <strong>listen</strong> to our conversations, <strong>deliver</strong> energy to our homes, and automate and operate our factories. Their applications and numbers increase by the hour, and we are quickly heading to a trillion devices deployed worldwide – approximately 150 devices per person on the planet.</p><p>Increasingly often, these <strong>devices are turned against us</strong>: spying on us, launching massive, distributed cyber-attacks, used as bridges to infect networks, employed in sophisticated nation-state attacks targeting our facilities We are losing control of our own infrastructure and soon we will be unable to manage the IoT we created. The sheer number of devices, their heterogeneity, and their varying longevity (days, or decades) represents a huge challenge impacting our personal safety, the security of our data, and our economy.</p><p>We are on the verge of losing the capacity of managing IoT: “Classic” constructs we used relatively successfully to manage IT systems, such as trust separation and graceful degradation, are now failing us, as they do not accommodate for the very characteristics and nature of IoT devices. There are several dimensions separating IoT from regular IT. In this context, the “old” IT-based security paradigm, based on ad-hoc solutions developed and deployed specifically for each system, is doomed to fail. In fact, it <strong>is already failing</strong>, as humans lose sight of the huge complexities characterizing such a heterogeneous, vast environment.</p><p>Such a multifaceted problem, needs to be tackled from different yet interrelated perspectives. To structure our approach, we align with the most recent edition of the National Cyber Security Research Agenda and we tackle the problem ‘integrally’ from various different, and complementary, perspectives: “Design”, “Defence”, “Attack”, “Governance”, and “Privacy”.</p><h3 id=design>Design</h3><p>The state-of-the-art in secure software engineering is exemplified by lists of common security flaws, at the coding level or at the design level, e.g. the OWASP Top 10. There is even already an OWASP IoT Top 10, of things to avoid when building, deploying or managing IoT systems. Such lists, of what not to do, are still a long way off methodologies to get security-by-design. More constructive approaches, suggesting do’s rather than don’ts, include the BSIMM security maturity model and more recently the secure engineering methodology being developed by NIST and community efforts on assurance and certification in AMASS.</p><p><strong>We need to move beyond Security-by-Design to Resilience-by-Design, while incorporating the autonomously adaptive security principle in our designs</strong>: We should expect systems to be attacked and compromised, in parts or as a whole, and design them to autonomously manage their security while acting selflessly. This means systems should be designed to allow for good monitoring to facilitate defence and to evolve in the face of new attacks, or rather, a better understanding of attacks. Our approach for this should be integrated with the NIST and AMASS initiatives mentioned above.</p><p>Unfortunately, it is a well-known tragedy that the same standard security mistakes keep being repeated, and better practices keep being ignored. So we also need to understand why this is the case to make sure that new tools and techniques will not suffer the same fate. Insight into where and how incentives for secure practices are lacking also provides a basis for the perspective Governance.</p><h3 id=defence>Defence</h3><p>In general <strong>defence is losing ground against attackers</strong> and <strong>in IoT specifically, defence is nearly non-existent</strong>. IoT offers a huge and heterogeneous attack surface, where standard ICT defence techniques are of limited applicability. Present defence techniques are very labour-intensive and as such they do not scale and cannot cope with the IoT specific dimensions of space, time and structure. Novel defence techniques are needed for IoT, addressing these dimensions while supporting autonomously and adaptive security. These techniques need to cope with the cyber-physical nature of the IoT setting, with potentially hostile environments, and the heterogeneous devices (low resource sensors, edge nodes, and powerful cloud back-ends).</p><p>To supervise devices that you do not manage, awareness of their behaviour and status is essential. <strong>Monitoring</strong> is thus an essential part of IoT defence. Current intrusion detection approaches, however, are not up to the task of efficiently monitoring the <strong>plethora of IoT devices</strong> and typically do not offer enough insight to make effective decisions, let alone to automate them. Today, we see the first steps in designing adaptive systems that respond to detected situations, however the underlying assumption that one has a full specification of the system, is not realistic in IoT (structure dimension).</p><p><strong>Intelligent IoT monitoring</strong> is needed, to allow the system to adapt autonomously both on the short term (e.g. a detected attack) and the long term with changing environment and use (time dimension). Monitoring and awareness will also be instrumental to provide indispensable input to other activities: Governance, Design, Attacks and Privacy, by supplying up-to-date evidence regarding attacks methods and activities.</p><p>Finally, existing defence mechanisms typically focus on protecting a device, system and its data, without considering how this impacts others. Sharing of security information or sacrificing functionality of a device to protect others (selflessness principle) are essential for IoT security. <strong>Collaborative defence</strong> approaches are needed.</p><h3 id=attack>Attack</h3><p>How good is a secure design, how strong a defence, and how complete are advances in privacy and governance? To achieve a secure IoT, we need to understand the attack surface. Unfortunately, for IoT this is unprecedentedly large with complex and poorly understood chains of interdependencies between devices and systems. The <strong>deployment complexity</strong> (trillions of IoT devices), <strong>heterogeneity</strong> (from smart dust to self-driving cars), and characteristics (physical vs. remote access) immediately translate to a huge, previously <strong>unexplored attack surface</strong>. In addition, today’s understanding of offensive techniques is not adequate for systems where software is tightly integrated with hardware. Today’s methodology of ad hoc probing of the security of a handful devices is no longer an option; so far however, the community has no idea how to assess the security and find dangerous weaknesses automatically at such an enormous scale, covering so many (systems of) devices but also so many design processes and defences, etc. The primary research challenges are to develop automated techniques to detect vulnerabilities in complex constellations of IoT systems and to guide these efforts by prioritizing the most dangerous weaknesses.</p><p>In other words, <strong>we need attack prediction models</strong>, based on empirical evidence that help security analysts focus on the most important systems and attack vectors (e.g., because they are popular among attackers in general, on the rise, or simply relevant for particular sectors). The analyst will then analyse these systems in terms of fundamental security principles and security properties (single-system properties such as confidentiality, integrity, availability, but also properties for the wider system, such as isolation, abusability, etc.). In addition to vulnerability analysis, the evidence-driven prioritization of what are important attack vectors and modus operandi will provide input and directions to the design, defence, governance and privacy efforts.</p><h3 id=governance>Governance</h3><p>IoT manufacturers already devote far too little attention to develop secure products due to the lack of market incentives. We cannot expect them to follow the selflessness security paradigm in their devices to create autonomously adaptive security for their platforms without governance-based incentives. Instead, we already see interdependence between stakeholders contributing to a blame game between the actors within the IoT supply chain accusing each other of insufficient security efforts. Limited security specifications in IoT products signal a market failure that require regulatory intervention. According to the European Commission, <strong>governing the IoT requires rules</strong> and processes to drive the way in which powers are exercised, particularly as regards openness, participation, accountability, effectiveness and coherence. To satisfy these “principles of good governance” within the multi-stakeholder IoT landscape, we must revisit traditional governance models.</p><p>There are, however, a number of challenges to implementing these governance principles when it comes to cybersecurity. First, there exists a <strong>wide array of standards in cybersecurity</strong>, ranging from technical specifications for encryption at device level to risk management at the organisational level. Moreover, given the wide application of IoT, standards are being developed within, rather than across, sectoral verticals. Thus, the landscape for privacy and security standards that apply to IoT is <strong>increasingly complex</strong>, and the market has so far indicated limited convergence towards a core set of standards to support these principles.</p><p>In addition, due to the pervasive interconnectivity of IoT devices, determining liability is more difficult than ever. With traditional products, liability mostly falls to the manufacturer/service provider. However, if an IoT product does provide basic cybersecurity measures and an attack occurs, current regulatory frameworks do not always determine who should be held liable.</p><h3 id=privacy>Privacy</h3><p>Many IoT business models depend on the large scale processing of personal data for <strong>personalised services</strong> and generating revenue through advertising creating what has been termed <strong>surveillance capitalism</strong>. Although consumers benefit from IoT devices and applications, they are also confronted with a sense of diminishing transparency and control. Privacy considerations have played a very limited role in the development of IoT devices inter alia due to economic obstacles, interoperability concerns, and usability concerns. The European regulator has acknowledged the importance of privacy and data protection. The new General Data Protection Regulation (2016/679), enhances transparency and user-control and introduces Privacy-by-Design and Privacy-by-Default (art. 25) as new instruments for data protection.</p><p><strong>Privacy-by-Design</strong> and <strong>Privacy Enhancing Technologies</strong> (PET) have a long history, yet their uptake has been limited due to concerns raised above. There are also concerns regarding the notion of implementing data protection requirements in code. The IoT landscape raises specific challenges due to its spatial, time and structural characteristics. On top of this, it is not clear what the Privacy-by-Design requirements in art. 25 GDPR entail.</p><p>Privacy and regulatory compliance are seen as a significant obstacles in the industry. There is a need for guidance with respect to Privacy-by-Design in the secure IoT context, from design patterns, development frameworks and privacy enhancing technologies to secure IoT specific PETs. Our privacy has been designed away, but can also be designed back into it in a new generation of IoT devices and services.</p></div><div class=article-tags>
 <a class="badge badge-light" href=/tag/iot-security/>IoT Security</a>
 </div><div class="media author-card content-widget-hr">
-<a href=https://zambo99.github.io/><img class="avatar mr-3 avatar-circle" src="https://s.gravatar.com/avatar/bffc25a87fa5cb70adcdf29dcec5d279?s=200" alt="Emmanuele Zambon"></a>
+<a href=https://zambo99.github.io/><img class="avatar mr-3 avatar-circle" src="https://s.gravatar.com/avatar/ee4da030d781252075d6dc4f0bac8877?s=200" alt="Emmanuele Zambon"></a>
 <div class=media-body>
 <h5 class=card-title><a href=https://zambo99.github.io/>Emmanuele Zambon</a></h5><h6 class=card-subtitle>Assistant Professor</h6><p class=card-text>My research interests include Industrial Control System security and network intrusion detection.</p><ul class=network-icon aria-hidden=true>
 <li>
@@ -184,6 +184,9 @@ Cite
 </a>
 <a class="btn btn-outline-primary btn-page-header btn-sm" href=/project/intersect/>
 Project
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/https://doi.org/10.1007/978-3-032-16165-9_8 target=_blank rel=noopener>
+DOI
 </a>
 </div></div><div class=ml-3>
 </div></div><div class="media stream-item view-compact">
@@ -275,6 +278,67 @@ DOI
 </div></div><div class="media stream-item view-compact">
 <div class=media-body>
 <div class="section-subheading article-title mb-0 mt-0">
+<a href=/publication/usec2025/>A Field Study to Uncover and a Tool to Support the Alert Investigation Process of Tier-1 Analysts</a>
+</div><a href=/publication/usec2025/ class=summary-link>
+<div class=article-style>
+We collaborate with a commercial SOC and employ two think-aloud experiments: the first evaluates the alert investigation process followed by professional T1 analysts, the second evaluates an alert investigation support system (AISS) integrated into the SOC environment. The AISS aids the analyst in gathering more relevant information while performing fewer actions for critical security alerts.
+</div></a>
+<div class="stream-meta article-metadata">
+<div>
+<span>
+Leon Kersten</span>, <span>
+Kim Beelen</span>, <span class=author-highlighted>
+Emmanuele Zambon</span>, <span>
+Chris Snijders</span>, <span>
+Luca Allodi</span>
+</div></div><div class=btn-links>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=/publication/usec2025/usec2025.pdf target=_blank rel=noopener>
+PDF
+</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/usec2025/cite.bib>
+Cite
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=/project/intersect/>
+Project
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/https://doi.org/10.14722/usec.2025.23034 target=_blank rel=noopener>
+DOI
+</a>
+</div></div><div class=ml-3>
+</div></div><div class="media stream-item view-compact">
+<div class=media-body>
+<div class="section-subheading article-title mb-0 mt-0">
+<a href=/publication/wosoc2025/>A Test Tool to Evaluate the Skill Sets of Tier-1 Security Analysts in a SOC Environment: A Case Study from Recruitment to Operations</a>
+</div><a href=/publication/wosoc2025/ class=summary-link>
+<div class=article-style>
+We identify from extant literature the relevant skills a tier-1 SOC analyst needs, and devise a test to evaluate those in collaboration with a commercial SOC. A three-month case study with three aspiring analysts shows that the test can give insights on analyst progress and training effectiveness.
+</div></a>
+<div class="stream-meta article-metadata">
+<div>
+<span>
+Adriana Radu</span>, <span>
+Leon Kersten</span>, <span>
+Rik Wosyka</span>, <span>
+Tom Mulders</span>, <span class=author-highlighted>
+Emmanuele Zambon</span>, <span>
+Luca Allodi</span>
+</div></div><div class=btn-links>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=/publication/wosoc2025/wosoc2025.pdf target=_blank rel=noopener>
+PDF
+</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/wosoc2025/cite.bib>
+Cite
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=/project/intersect/>
+Project
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/https://doi.org/10.14722/wosoc.2025.23001 target=_blank rel=noopener>
+DOI
+</a>
+</div></div><div class=ml-3>
+</div></div><div class="media stream-item view-compact">
+<div class=media-body>
+<div class="section-subheading article-title mb-0 mt-0">
 <a href=/publication/acsac2024/>A Security Alert Investigation Tool Supporting Tier 1 Analysts in Contextualizing and Understanding Network Security Events</a>
 </div><a href=/publication/acsac2024/ class=summary-link>
 <div class=article-style>
@@ -329,6 +393,9 @@ Cite
 <a class="btn btn-outline-primary btn-page-header btn-sm" href=/project/intersect/>
 Project
 </a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/https://doi.org/10.1109/EuroSPW61312.2024.00019 target=_blank rel=noopener>
+DOI
+</a>
 </div></div><div class=ml-3>
 </div></div><div class="media stream-item view-compact">
 <div class=media-body>
@@ -354,6 +421,9 @@ Cite
 </a>
 <a class="btn btn-outline-primary btn-page-header btn-sm" href=/project/intersect/>
 Project
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/https://doi.org/10.1109/EuroSPW61312.2024.00021 target=_blank rel=noopener>
+DOI
 </a>
 </div></div><div class=ml-3>
 </div></div><div class="media stream-item view-compact">
@@ -387,6 +457,9 @@ Cite
 <a class="btn btn-outline-primary btn-page-header btn-sm" href=/project/intersect/>
 Project
 </a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/https://doi.org/10.1109/SP54263.2024.00162 target=_blank rel=noopener>
+DOI
+</a>
 </div></div><div class=ml-3>
 </div></div><div class="media stream-item view-compact">
 <div class=media-body>
@@ -413,6 +486,9 @@ Cite
 </a>
 <a class="btn btn-outline-primary btn-page-header btn-sm" href=/project/intersect/>
 Project
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/https://doi.org/10.1007/978-3-031-56249-5_1 target=_blank rel=noopener>
+DOI
 </a>
 </div></div><div class=ml-3>
 </div></div></div></div></article></div><div class=page-footer>
